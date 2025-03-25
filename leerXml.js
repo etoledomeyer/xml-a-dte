@@ -23,7 +23,8 @@ function waitForTextReadComplete(reader) {
         //console.log(text);
         localStorage.removeItem("archivo");
         localStorage.setItem("archivo",text);  
-        window.location.href="http://127.0.0.1:5500/invoice.html";    
+        //window.location.href="http://127.0.0.1:5500/invoice.html"; 
+        location.href="invoice.html";   
         //var lectura = localStorage.getItem("archivo");
         //parseTextAsXml(text);
         //parseTextAsXml(lectura);             
